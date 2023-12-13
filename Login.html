@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Page</title>
+    <style>
+        header {
+            color: rgb(14, 14, 14);
+            font-size: large;
+            text-align: center;
+            font-weight: bold;
+            text-underline-offset: auto;
+            background-color: #b7b7b7;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url(image1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: transparent;
+            box-shadow: 0 0 100px rgba(0, 0, 0, 0.937);
+            border-radius: 10px;
+            overflow: hidden;
+            width: 500px;
+            margin: 0;
+            align-items: center;
+        }
+
+        form {
+            align: center;
+            color: rgb(22, 22, 22);
+            margin: auto;
+            padding: 10px;
+            font-size: medium;
+        }
+
+
+        button {
+            background-color: #f35e5e;
+            color: #ffffff;
+            padding: 12px;
+            border-radius: 100px;
+            butten-size: 10px;
+            padding: 5px;
+            font-size: 15px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        input[type="text" i]{
+            padding-block: 5px;
+    padding-inline: 20p
+        }
+        input[type="password" i]{
+            padding-block: 5px;
+    padding-inline: 20p
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+        a{
+            color: rgb(0, 0, 0);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 15px;
+            margin-top: 20px;
+            color: #000000;
+            background-color: #b2b2b2;
+        }
+
+        footer>span {
+            position: relative;
+            bottom: 20px;
+
+        }
+    </style>
+</head>
+
+<body align="center">
+    <div class="container">
+        <header>
+            <div class="txt">Stock Management System</div>
+        </header>
+
+
+
+        <form>
+            <b> User Name</b><br> <input type="text" placeholder="Enter The User Name"><br>
+            <b>Password</b><br><input type="password" placeholder="Enter The Password"><br>
+            <p> <h6> <a href="Forget Password.html" title="Forget Password" target="_blank"> Forget Password</a></h6></p>
+            <button type="submit">
+                <b title="Submit"><a href="Home Page.html"  target="_blank" >
+                    Submit</a>
+                </b>
+            </button>
+            <button type="Refresh">
+                <b title="Refresh"><a href="Login.html">
+                    Refresh</a>
+                </b>
+            </button>
+            
+
+        </form>
+        <footer><br><span>&copy;
+                Stock Management System
+            </span>
+        </footer>
+
+</body>
+
+</html>

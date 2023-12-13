@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign In Page</title>
+    <style>
+        header{
+            color: rgb(14, 14, 14);
+            font-size: large;
+            text-align: center;
+            font-weight: bold;
+            text-underline-offset: auto;
+            background-color: #b7b7b7;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url(image1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+
+
+        button {
+            background-color: #f35e5e;
+            color: #ffffff;
+            padding: 12px;
+            border-radius: 100px;
+            butten-size: 10px;
+            padding: 5px;
+            font-size: 15px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .container {
+            background-color: transparent;
+            box-shadow: 0 0 100px rgba(0, 0, 0, 0.937);
+            border-radius: 10px;
+            overflow: hidden;
+            width: 500px;
+            margin: 0;
+        }
+        input[type="text" i]{
+            padding-block: 5px;
+    padding-inline: 20p
+        }
+        input[type="password" i]{
+            padding-block: 5px;
+    padding-inline: 20p
+        }
+        a{
+            color: white;
+        }
+
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 15px;
+            margin-top: 20px;
+            color: #000000;
+            background-color: #b2b2b2;
+        }
+
+        footer>span {
+            position: relative;
+            bottom: 20px;
+
+        }
+    </style>
+</head>
+
+<body align="center">
+    <div class="container">
+        <header>
+            <div class="txt">Stock Management System</div>
+        </header>
+
+
+
+        <form>
+           <b> User Name</b> <br><input type="text" placeholder="Enter The User Name"><br>
+           <b>User Phone</b><br><input type="text" placeholder="Enter The Mobile No."><br>
+            <b>User Email I'D</b><br><input type="text" placeholder="Enter The Email I'D"><br>
+            <b>Password</b><br><input type="password" placeholder="Enter The Password"><br>
+            <b>Retype-Password</b><br><input type="password" placeholder="Enter The Retype-Password"><br><br>
+            <button type="submit">
+                <b title="Submit">
+                   <a href="Login.html" > Submit</a>
+                </b>
+            </button>
+            <button type="Refresh">
+                <b title="Refresh">
+                    <u>Refresh</u>
+                </b>
+            </button>
+
+        </form>
+        <footer><br><span>&copy;
+                Stock Management System
+            </span>
+        </footer>
+
+</body>
+
+</html>
